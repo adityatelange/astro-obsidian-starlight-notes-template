@@ -15,9 +15,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'My Notes',
-			social: {
-				gitlab: 'https://gitlab.com/adityatelange/astro-obsidian-starlight-notes-template',
-			},
+			social: [
+				{
+					icon: 'github', label: 'GitHub', href: 'https://github.com/adityatelange/astro-obsidian-starlight-notes-template',
+				}
+			],
 			customCss: [
 				// Relative path to your custom CSS file
 				'./src/styles/custom.css',
