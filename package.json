@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@astrojs/starlight": "^0.31.1",
-    "astro": "^5.1.5",
-    "sharp": "^0.32.5",
+    "astro": "^5.7.13",
+    "sharp": "^0.32.6",
     "starlight-blog": "^0.16.1",
     "starlight-obsidian": "^0.7.1",
     "starlight-theme-obsidian": "^0.1.1"
