@@ -5,3 +5,7 @@
 .sl-link-card {
     margin: 0;
 }
+
+.sl-badge:not(:last-of-type) {
+    margin-inline-end: 0.25rem;
+}
